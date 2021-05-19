@@ -27,3 +27,9 @@ test('User should be Alejandro Roa object', () => {
     lastName: 'Roa'
   });
 });
+
+// Arrays
+test('User should be Alejandro Roa object', () => {
+  usernames = ['marta', 'alejo', 'dude']
+  expect(usernames).toContain('alejo');
+});
